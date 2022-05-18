@@ -1,8 +1,33 @@
 .header{
     height: 100vh;
-    overflow-x: hidden;
+}
+
+.header .header_tengah{
+    margin-top: 4rem;
+}
+
+.header .header_samping{
+    margin-top: 12rem;
 }
 
 .header .ketupat{
-    bottom: -11%;
+    bottom: -6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .header_title{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.75);
+
+    margin: 1.4rem 0rem 1rem;
+}
+
+.header .header_para{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.75);
 }
