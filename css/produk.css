@@ -1,0 +1,75 @@
+.produk .card
+{
+    width: 17.688rem;
+    height: 25.75rem;
+    transition: 0.5s;
+    display: flex;
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+    border-radius: 0%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    
+}
+.produk .card img
+{
+    width: 15.375rem;
+    height: 15.125rem;
+    transition: 0.5s;
+    margin-top: 18px;
+}
+.produk .card .card-body a.btn
+{
+    width: 15.375rem;
+    transition: 0.5s;
+    border: 1px solid #AFC318;
+    border-radius: 0%;
+}
+.produk .card .card-body a .iconify
+{
+    font-size: 20px;
+
+}
+.produk .card:hover
+{
+    width: 21.375rem;
+    height: 31.125rem;
+    border: 2px solid #AFC318;
+}
+
+.produk .card:hover img
+{
+    width: 18.688rem;
+    height: 19.438rem;
+}
+.produk .card:hover .card-body a.btn
+{
+    background-color:#AFC318;
+    font-weight: bold;
+}
+
+.produk ul .nav-item .nav-link.active
+{
+    background: rgba(175, 195, 24, 0.25);
+    border: 2px solid #AFC318;
+    width: 17.688rem;
+}
+.produk ul .nav-item .nav-link
+{
+    color: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background-color: transparent;
+    width: 17.688rem;
+    border-radius: 0%;
+}
+.produk ul li button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.produk ul li button span
+{
+    padding-left: 8px;
+}
