@@ -1,8 +1,85 @@
 .header{
     height: 100vh;
-    overflow-x: hidden;
+}
+
+.header .header_tengah{
+    margin-top: 4rem;
+}
+
+.header .header_samping{
+    margin-top: 12rem;
 }
 
 .header .ketupat{
-    bottom: -11%;
+    bottom: -6%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header .header_title{
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.75);
+
+    margin: 1.4rem 0rem 1rem;
+}
+
+.header .header_para{
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.75);
+
+    margin-bottom: 3rem;
+}
+
+.header .btn_wrap {
+    width: 100%;
+    padding: 0rem 8rem;
+}
+
+.header .tombol{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.75);
+
+    width: 12.75rem;
+    height: 3.75rem;
+}
+
+.header .tombol.btn_shop{
+    background: rgba(175, 195, 24, 1);
+    transition: 0.5s;
+}
+
+.header .tombol.btn_shop .iconify{
+    margin-right: 0.5rem;
+}
+
+.header .tombol.btn_shop:hover{
+    width: 236px;
+}
+
+.header .tombol.btn_order{
+    border: 1px solid rgba(175, 195, 24, 1);
+    transition: 0.5s;
+}
+
+.header .tombol.btn_order .iconify{
+    margin-left: 0.5rem;
+}
+
+.header .tombol.btn_order:hover{
+    border: none;
+    background: rgba(175, 195, 24, 1);
+    width: 236px;
+}
+
+@media only screen and (max-width:1025px) {
+    .header .btn_wrap{
+        padding: 0rem 2rem;
+    }
 }
