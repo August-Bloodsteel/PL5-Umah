@@ -1,21 +1,44 @@
 <!-- =========================== Start Header Area =========================== -->
 <section class="header">
 
-    <div class="row">
+    <div class="row d-flex flex-row">
 
-        <div class="col col-sm-12 col-lg-3 d-flex justify-content-center position-relative"> 
-            <img src="./img/header_kiri.png" alt="">
-            <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+        <!-- Gambar Kiri -->
+        <div class="col order-lg-1 order-md-3 col-sm-12 col-lg-3 d-flex justify-content-center align-items-center ">
+            <div class="img_wrap position-relative">
+                <img class="header_samping" src="./img/header_kiri.png" alt="">
+                <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+            </div> 
+        </div>
+        
+        <!-- Gambar Tengah -->
+        <div class="col order-lg-2 order-md-2 col-sm-12 col-lg-6 d-flex justify-content-center align-items-center ">
+            <div class="img_wrap position-relative">
+                <img class="header_tengah" src="./img/header_tengah.png" alt="">
+                <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+            </div>
+        </div>
+        
+        <!-- Gambar Kanan -->
+        <div class="col order-lg-3 order-md-4 col-sm-12 col-lg-3 d-flex justify-content-center align-items-center ">
+            <div class="img_wrap position-relative">
+                <img class="header_samping" src="./img/header_kanan.png" alt="">
+                <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+            </div>
         </div>
 
-        <div class="col col-sm-12 col-lg-6 d-flex justify-content-center position-relative">
-            <img src="./img/header_tengah.png" alt="">
-            <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+        <!-- Header Title -->
+        <div class="col order-lg-4 order-md-1 col-sm-12 col-lg-6 offset-lg-3 d-flex flex-column justify-content-center align-items-center">
+            <h1 class="header_title text-center">Pusatnya furniture berkualitas dan bergaransi</h1>
+            <p class="header_para text-center">Temukan beragam produk sesuai kebutuhan kantor Anda</p>
         </div>
 
-        <div class="col col-sm-12 col-lg-3 d-flex justify-content-center position-relative">
-            <img src="./img/header_kanan.png" alt="">
-            <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+        <!-- Header Button -->
+        <div class="col order-lg-5 order-md-5 col-sm-12 col-lg-6 offset-lg-3 d-flex justify-content-center">
+            <div class="btn_wrap d-flex justify-content-between">
+                <a class="tombol btn_shop d-flex align-items-center justify-content-center" href="#"><i class="iconify" data-icon="clarity:shopping-cart-line"></i>Shop Now</a>
+                <a class="tombol btn_order d-flex align-items-center justify-content-center" href="#">Custom Order<i class="iconify" data-icon="bx:right-arrow-alt"></i></a>
+            </div>
         </div>
 
     </div>
