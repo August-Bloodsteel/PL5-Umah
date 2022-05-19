@@ -1,6 +1,15 @@
 .kontak .tact
 {
     padding-left: 0;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+.kontak .tact h1
+{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .kontak .isi
@@ -80,6 +89,7 @@
     height: 3.75rem;
     background-color: #AFC318;
     transition: 0.5s;
+    margin-bottom: 140px;
 }
 .kontak .isi .form .submit:hover
 {
@@ -134,11 +144,21 @@
         height: 3.75rem;
         background-color: #AFC318;
         transition: 0.5s;
+        margin-bottom: 68px;
     }
     .kontak .isi .form .submit:hover
     {
         width: 19.5rem;
         height: 3.75rem;
         background-color: #AFC318;
+    }
+    .kontak .tact
+    {
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+    .kontak .tact h1
+    {
+        font-size: 32px;
     }
 }
