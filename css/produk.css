@@ -1,3 +1,4 @@
+
 .produk .our h1
 {
     font-weight: 500;
@@ -6,6 +7,15 @@
 
     color: rgba(0, 0, 0, 0.75);
     margin-bottom: 48px;
+}
+.produk .card .card-body a
+{
+    margin-bottom: 13.5px;
+}
+.produk ul
+{
+    list-style: none;
+    padding: 0;
 }
 .produk .card
 {
@@ -59,6 +69,7 @@
     width: 21.375rem;
     height: 31.125rem;
     border: 2px solid #AFC318;
+    box-shadow: 12px 12px 48px rgba(175, 195, 24, 0.48);
 }
 
 .produk .card:hover img
@@ -89,7 +100,9 @@
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: transparent;
     width: 17.688rem;
+    height: 3.25rem;
     border-radius: 0%;
+    margin-bottom: 40px;
 }
 .produk ul li button
 {
@@ -111,10 +124,76 @@
 
 @media only screen and (max-width: 900px) 
 {
+    .produk .our h1
+    {
+        font-size: 32px;
+    }
+    .produk .pembungkus-kartu
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .produk .pembungkus-kartu .card
+    {
+        margin-bottom: 32px;
+        width: 18em;
+        height: 28rem;
+        border: 2px solid #AFC318;
+        box-shadow: 12px 12px 48px rgba(175, 195, 24, 0.48);
+    }
+
+    .produk .card
+    {
+        width: 19.486rem;
+        height: 28.375rem;
+    }
+    .produk .card:hover
+    {
+        width: 18em;
+        height: 28rem;
+        border: 2px solid #AFC318;
+        box-shadow: 12px 12px 48px rgba(175, 195, 24, 0.48);
+    }
+
+    .produk .card img
+    {
+        width: 16rem;
+        height: 16.688rem;
+    }
+    .produk .card .card-body a
+    {
+        background-color:#AFC318;
+        font-weight: bold;
+    }
+    .produk .card:hover img
+    {
+        width: 16.036rem;
+        height: 16.688rem;
+    }
+
+    .bungkus-link
+    {
+        display: flex;
+        overflow-x: auto;
+    }
+    .bungkus-link::-webkit-scrollbar
+    {
+        width: 0;
+    }
+
+
     .produk ul .nav-item .nav-link
     {
         width: 9.25rem;
         border-radius: 0%;
+        margin-right: 16px;
+        margin-left: 16px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+        
     }
     .produk ul .nav-item .nav-link.active
     {
