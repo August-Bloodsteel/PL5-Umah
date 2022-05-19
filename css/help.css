@@ -102,6 +102,14 @@
         width: 19.5rem;
         /* margin-left: 40px; */
     }
+    .kontak .isi .form input:focus
+    {
+        background-color: rgba(175, 195, 24, 0.25);
+    }
+    .kontak .isi .form textarea:focus
+    {
+        background-color: rgba(175, 195, 24, 0.25);
+    }
     .kontak .isi .form textarea
     {
         width: 19.5rem;
