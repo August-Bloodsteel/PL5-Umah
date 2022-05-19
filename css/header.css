@@ -11,10 +11,12 @@
 }
 
 .header .ketupat{
+    width: auto;
     bottom: -6%;
     left: 50%;
     transform: translateX(-50%);
 }
+
 
 .header .header_title{
     font-weight: 500;
@@ -36,7 +38,7 @@
 
 .header .btn_wrap {
     width: 100%;
-    padding: 0rem 8rem;
+    padding: 0rem 6rem;
 }
 
 .header .tombol{
@@ -64,6 +66,7 @@
 }
 
 .header .tombol.btn_order{
+    background: white;
     border: 1px solid rgba(175, 195, 24, 1);
     transition: 0.5s;
 }
@@ -78,8 +81,114 @@
     width: 236px;
 }
 
-@media only screen and (max-width:1025px) {
+@media only screen and (max-width:1200px) {
+    .header img{
+        width: 100%;
+    }
+
     .header .btn_wrap{
-        padding: 0rem 2rem;
+        padding: 0rem;
+    }
+
+    .header .ketupat{
+        bottom: -7.5%;
+    }
+
+    .header .ketupat.ski{
+        bottom: -5.5%;
+    
+    }
+    .header .ketupat.ska{
+        bottom: -5.5%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .header{
+        height: 100%;
+    }
+    .header img{
+        width: auto;
+    }
+
+    .header .header_tengah{
+        width: 100%;
+    }
+
+    .header .imgs_wrap{
+        width: auto;
+    }
+
+    .header .header_samping{
+        margin-top: 1rem;
+    }
+
+    .header .header_samping.ski{
+        margin-left: 3.5rem;
+    }
+
+    .header .header_samping.ska{
+        margin-right: 3.5rem;
+    }
+
+    .header .header_tengah{
+        margin-top: 0rem;
+    }
+
+    .header .header_para{
+        margin-bottom: 1.5rem;
+    }
+
+    .header .btn_wrap{
+        margin-top: 2.1rem;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .header .header_title{
+        font-size: 2.1rem;
+    }
+
+    .header .header_para{
+        font-size: 1rem;
+        width: 80%;
+    }
+
+    .header .header_tengah{
+        width: 18.8rem;
+    }
+
+    .header .header_samping{
+        width: 9.25rem;
+    }
+
+    .header .ketupat{
+        width: 1.5rem;
+    }
+
+    .header .header_samping.ski{
+        margin-left: 0rem;
+    }
+
+    .header .header_samping.ska{
+        margin-right: 0rem;
+    }
+
+    .header .tombol{
+        width: 19.5rem;
+    }
+
+    .header .tombol.btn_shop{
+        margin-bottom: 1rem;
+    }
+
+    .header .tombol.btn_shop:hover{
+        width: 19.5rem;
+    }
+
+    .header .tombol.btn_order:hover{
+        width: 19.5rem;
+        border: 1px solid rgba(175, 195, 24, 1);
+        background: white;
     }
 }
