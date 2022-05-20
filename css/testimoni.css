@@ -79,7 +79,10 @@
     width: auto;
     height: min-content;
 }
-
+/* .testimoni .carousel-indicators button i
+{
+    color: rgba(0, 0, 0, 1);;
+} */
 .testimoni .carousel-indicators button
     {
         position: relative;
