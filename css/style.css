@@ -24,3 +24,11 @@ html,body{
     font-style: normal;    
 }
 
+@media only screen and (max-width: 900px)
+{
+    html, body
+    {
+        scroll-padding-top: 500px;
+    }
+}
+
