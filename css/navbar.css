@@ -92,6 +92,7 @@ nav{
         font-weight: 500;
         font-size: 18px;
         line-height: 115%;
+        z-index: 1000;
         color: rgba(0, 0, 0, 0.75);
 
     }
@@ -124,7 +125,7 @@ nav{
         top: 80px;
         right: 0px;
         text-align: right;
-        z-index: 2;
+        z-index: 20;
         transition: 1s;
         display: none;
     }
@@ -146,10 +147,10 @@ nav{
     0%
     {
         transform: scale(0, 0);
+
     }
     100%
     {
-
         transform: scale(1, 1);
     }
 }
@@ -164,5 +165,7 @@ nav{
     {
         transform: scale(0, 0);
 
+
     }
 }
+

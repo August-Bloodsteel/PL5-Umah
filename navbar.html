@@ -77,29 +77,31 @@
 
 <script>
 
-    //   var nav = document.getElementById("navbarbleb");
-    //   var head = document.getElementById("header");
-    //   var ln1 = document.getElementById("ln1");
-    //   var ln2 = document.getElementById("ln2");
+      var nav = document.getElementById("navbarbleb");
+      var head = document.getElementById("header");
+      var ln1 = document.getElementById("ln1");
+      var ln2 = document.getElementById("ln2");
 
-    //       document.body.addEventListener('scroll',() => {
+          document.body.addEventListener('scroll',() => {
               
-    //           if (document.body.scrollTop > head.offsetTop){
+              if (document.body.scrollTop > head.offsetTop){
 
-    //               console.log('LOL');
-    //               document.getElementById('navbarbleb').className="fixed-top navbar scrolled";
-    //               document.getElementById('ln1').className="logo_nav ln1 on";
-    //               document.getElementById('ln2').className="logo_nav ln2";
+                  console.log('LOL');
+                  document.getElementById('navbarbleb').className="fixed-top navbar scrolled";
+                  document.getElementById('ln1').className="logo_nav ln1 on";
+                  document.getElementById('ln2').className="logo_nav ln2";
                   
-    //           } else{
+              } else{
                   
-    //               console.log('WALOLING');
-    //               document.getElementById('navbarbleb').className="fixed-top navbar";
-    //               document.getElementById('ln1').className="logo_nav ln1";
-    //               document.getElementById('ln2').className="logo_nav ln2 on";
-    //           }
-    //       })      
+                  console.log('WALOLING');
+                  document.getElementById('navbarbleb').className="fixed-top navbar";
+                  document.getElementById('ln1').className="logo_nav ln1";
+                  document.getElementById('ln2').className="logo_nav ln2 on";
+              }
+          })
+</script>     
 
+<script>
 
     // console.log(document.getElementById("footer").scrollHeight);
     // window.onscroll = bleb()
@@ -114,6 +116,22 @@
     //         document.getElementById("wa_btn").className = "wa_btn";
     //     }
     // })
+    $(window).scroll(function() {
+        if ($(window).scrollTop() >= offset) {
+            $('.navbar').addClass('navbar-fixed-top');
+            $("#Main").css("margin-top", $(".navbar").height()); //Compensates for fixed positioning
+        } else {
+            $('.navbar').removeClass('navbar-fixed-top');
+            $("#Main").css("margin-top", "");
+        }
+    });
+
+    $('a.page-scroll').bind('click', function(event) {
+            var $anchor = $(this);
+            var globOffset = $(".navbar").height(); //Acts as an offset for the fixed element
+            $('body').stop().animate({scrollTop: $($anchor).attr('href').offset().top - globOffset}, 1500);
+            event.preventDefault();
+        });
 
     var sip = document.getElementById('head')
 
@@ -127,30 +145,37 @@
         nengok.style.display = "none";
         navLinks.style.transition = "1s";
         navLinks.style.animation = "zoomin 1s";
+        navLinks.style.transform = "scale(1,1)";
         navLinks.style.opacity = "100%";
         // navLinks.style.transform = "scale(1)";
         navLinks.style.display = "inline-block";
         sip.style.marginTop='500px';
         sip.style.transition='1s';
     }
+
+    
+
     // function showMenu() {
 
     // }
     function hideMenu() {
         // navLinks.style.transform = "scale(0)";
-        navLinks.style.transition = "1s";
-        navLinks.style.animation = "zoomout 1s";
+        navLinks.style.transition = "0.5s";
+        navLinks.style.transform = "scale(0,0)";
         nengok.style.display = "inline-block";
         keluar.style.display = "none";
         navLinks.style.opacity = "0%";
         sip.style.marginTop='62px';
     }
-    // function touch() {
-    //     navLinks.style.transform = "scale(0)";
-    //     // navLinks.style.display = "none";
+
+    // function touch()
+    // {
     //     nengok.style.display = "inline-block";
     //     keluar.style.display = "none";
+    //     navLinks.style.opacity = "0%";
     //     sip.style.marginTop='62px';
     // }
+    
+
 </script>
 <!-- =========================== End Navbar Area =========================== -->
