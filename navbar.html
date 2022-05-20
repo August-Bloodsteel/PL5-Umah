@@ -2,13 +2,21 @@
 <nav class="fixed-top navbar" id="navbarbleb">
     <a href="#navbar"><img src="img/logo.svg"></a>
     <div class="nav-links" id="NavLinks">
-        <ul>
+        <ul class="d-none d-md-inline d-xl-inline">
             <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
-            <li><a href="#navbar" ontouchstart="touch()">Home</a></li>
-            <li><a href="#about" ontouchstart="touch()">About Us</a></li>
-            <li><a href="#produk" ontouchstart="touch()">Product</a></li>
-            <li><a href="#testimoni" ontouchstart="touch()">Testimoni</a></li>
-            <li><a href="#help" ontouchstart="touch()">Contact</a></li>
+            <li><a href="#navbar">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#produk">Product</a></li>
+            <li><a href="#testimoni">Testimoni</a></li>
+            <li><a href="#help">Contact</a></li>
+        </ul>
+        <ul class="d-inline d-md-none d-xl-none">
+            <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
+            <li><a href="#navbar" onclick="touch()">Home</a></li>
+            <li><a href="#about" onclick="touch()">About Us</a></li>
+            <li><a href="#produk" onclick="touch()">Product</a></li>
+            <li><a href="#testimoni" onclick="touch()">Testimoni</a></li>
+            <li><a href="#help" onclick="touch()">Contact</a></li>
         </ul>
     </div>
     <span class="icon bars"> 
@@ -75,31 +83,6 @@
 </section>
 <!-- =========================== End Header Area =========================== -->
 
-<script>
-
-      var nav = document.getElementById("navbarbleb");
-      var head = document.getElementById("header");
-      var ln1 = document.getElementById("ln1");
-      var ln2 = document.getElementById("ln2");
-
-          document.body.addEventListener('scroll',() => {
-              
-              if (document.body.scrollTop > head.offsetTop){
-
-                  console.log('LOL');
-                  document.getElementById('navbarbleb').className="fixed-top navbar scrolled";
-                  document.getElementById('ln1').className="logo_nav ln1 on";
-                  document.getElementById('ln2').className="logo_nav ln2";
-                  
-              } else{
-                  
-                  console.log('WALOLING');
-                  document.getElementById('navbarbleb').className="fixed-top navbar";
-                  document.getElementById('ln1').className="logo_nav ln1";
-                  document.getElementById('ln2').className="logo_nav ln2 on";
-              }
-          })
-</script>     
 
 <script>
 
@@ -168,13 +151,13 @@
         sip.style.marginTop='62px';
     }
 
-    // function touch()
-    // {
-    //     nengok.style.display = "inline-block";
-    //     keluar.style.display = "none";
-    //     navLinks.style.opacity = "0%";
-    //     sip.style.marginTop='62px';
-    // }
+    function touch()
+    {
+        navLinks.style.display = "none";
+        nengok.style.display = "inline-block";
+        keluar.style.display = "none";
+        sip.style.marginTop='62px';
+    }
     
 
 </script>
