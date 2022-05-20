@@ -1,0 +1,101 @@
+.wrap-about
+{
+    margin-bottom: 120px;
+}
+.wrap-about .us h1
+{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.75);
+    margin-bottom: 48px;
+}
+.wrap-about .about .custom
+{
+    width: 17.625rem;
+}
+.wrap-about .about .custom .icon-pertama
+{
+    width: 11.25rem;
+    margin-bottom: 12px;
+    font-size: 48px;
+}
+.wrap-about .about .custom .icon-kedua
+{
+    width: 15.563rem;
+    margin-bottom: 12px;
+    font-size: 48px;
+}
+.wrap-about .about .custom .icon-ketiga
+{
+    width: 13.688rem;
+    margin-bottom: 12px;
+    font-size: 48px;
+}
+.wrap-about .about .custom h2
+{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.75);
+}
+.wrap-about .about .custom h3
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 1280px)
+{
+    .wrap-about .about .custom
+    {
+        width: 16.625rem;
+    }
+}
+
+
+@media only screen and (max-width: 1024px)
+{
+    .wrap-about
+    {
+        margin-bottom: 64px;
+    }
+    .wrap-about .about .custom
+    {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media only screen and (max-width: 900px)
+{
+
+    .wrap-about .about .custom .icon-pertama
+    {
+        font-size: 36px;
+    }
+    .wrap-about .about .custom .icon-kedua
+    {
+        font-size: 36px;
+    }
+    .wrap-about .about .custom .icon-ketiga
+    {
+        font-size: 36px;
+    }
+
+    .wrap-about .about .custom h2
+    {
+        font-size: 24px;
+    }
+    .wrap-about .about .custom h3
+    {
+        font-size: 16px;
+    }
+
+    .wrap-about .us h1
+    {
+        font-size: 32px;
+    }
+}

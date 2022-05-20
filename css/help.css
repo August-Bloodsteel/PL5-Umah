@@ -1,0 +1,164 @@
+.kontak .tact
+{
+    padding-left: 0;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+.kontak .tact h1
+{
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.kontak .isi
+{
+    padding-left: 0;
+}
+
+
+.kontak .isi .map iframe
+{
+    width: 30.375rem;
+    height: 30.375rem;
+    margin-right: 24px;
+}
+
+.kontak .isi .form input
+{
+    width: 30.375rem;
+    height: 4rem;
+    border: 1px solid #AFC318;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    outline: none;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.kontak .isi .form input:focus
+{
+    border: 4px solid #AFC318;
+    outline: none;
+}
+
+.kontak .isi .form textarea
+{
+    width: 30.375rem;
+    height: 13.875rem;
+    border: 1px solid #AFC318;
+    padding-left: 24px;
+    margin-bottom: 24px;
+    outline: none;
+    padding-top: 18px;
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.5);
+}
+.kontak .isi .form textarea:focus
+{
+    border: 4px solid #AFC318;
+}
+
+.kontak .isi .form input::placeholder
+{
+    transition: 0.5s;
+}
+.kontak .isi .form textarea::placeholder
+{
+    transition: 0.5s;
+}
+
+.kontak .isi .form input:focus::placeholder
+{
+    font-size: 12px;
+    position: absolute;
+    top: 4px;
+}
+.kontak .isi .form textarea:focus::placeholder
+{
+    font-size: 12px;
+    position: absolute;
+    top: 4px;
+}
+
+.kontak .isi .form .submit
+{
+    width: 10.063rem;
+    height: 3.75rem;
+    background-color: #AFC318;
+    transition: 0.5s;
+    margin-bottom: 140px;
+}
+.kontak .isi .form .submit:hover
+{
+    width: 12.625rem;
+    height: 3.75rem;
+    background-color: #AFC318;
+}
+.kontak .isi .form .submit .btn
+{
+    border: none;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 1024px)
+{
+    .kontak .isi .form input
+    {
+        width: 19.5rem;
+        /* margin-left: 40px; */
+    }
+    .kontak .isi .form input:focus
+    {
+        background-color: rgba(175, 195, 24, 0.25);
+    }
+    .kontak .isi .form textarea:focus
+    {
+        background-color: rgba(175, 195, 24, 0.25);
+    }
+    .kontak .isi .form textarea
+    {
+        width: 19.5rem;
+    }
+    .kontak .isi .map iframe
+    {
+        width: 19.5rem;
+        height: 19.5rem;
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+
+    .kontak .isi
+    {
+        padding: 0px;
+        height: 61.563rem;
+    }
+
+    .kontak .isi .form .submit
+    {
+        width: 19.5rem;
+        height: 3.75rem;
+        background-color: #AFC318;
+        transition: 0.5s;
+        margin-bottom: 68px;
+    }
+    .kontak .isi .form .submit:hover
+    {
+        width: 19.5rem;
+        height: 3.75rem;
+        background-color: #AFC318;
+    }
+    .kontak .tact
+    {
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+    .kontak .tact h1
+    {
+        font-size: 32px;
+    }
+}

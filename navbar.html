@@ -1,0 +1,156 @@
+<!-- =========================== Start Navbar Area =========================== -->
+<nav class="fixed-top navbar" id="navbarbleb">
+    <a href="#navbar"><img src="img/logo.svg"></a>
+    <div class="nav-links" id="NavLinks">
+        <ul>
+            <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
+            <li><a href="#navbar" ontouchstart="touch()">Home</a></li>
+            <li><a href="#about" ontouchstart="touch()">About Us</a></li>
+            <li><a href="#produk" ontouchstart="touch()">Product</a></li>
+            <li><a href="#testimoni" ontouchstart="touch()">Testimoni</a></li>
+            <li><a href="#help" ontouchstart="touch()">Contact</a></li>
+        </ul>
+    </div>
+    <span class="icon bars"> 
+        <span id="show">
+        <i  onclick="tampil()"  class="iconify" data-icon="ci:menu-alt-05" style="color: white;" data-width="32" data-height="32"></i>
+        </span>
+            <img onclick="hideMenu()" src="./img/close.svg" alt="" id="close" style="display: none;"> 
+    </span>
+</nav>
+
+<!-- =========================== Start Header Area =========================== -->
+<section class="header pb-5 mb-5" id="head">
+
+    <div class="container">
+
+        <div class="row d-flex flex-row justify-content-center">
+
+            <div class="imgs_wrap d-flex flex-md-row order-2 order-lg-1">
+                <div class="col-12 d-flex flex-lg-row flex-wrap justify-content-evenly align-items-center">
+                    <!-- Gambar Kiri -->
+                    <div class="col-sm-6 col-lg-3 img_wrap d-flex justify-content-lg-center justify-content-md-start order-2 order-lg-1">
+                        <div class="ketupat_wrap position-relative">
+                            <img class="header_samping ski" src="./img/header_kiri.png" alt="">
+                            <img class="ketupat ski position-absolute" src="./img/ketupat.svg" alt="">
+                        </div>
+                    </div>
+                    
+                    <!-- Gambar Tengah -->
+                    <div class="col-sm-12 col-lg-6 img_wrap d-flex justify-content-center d-flex justify-content-center position-relative order-1 order-lg-2">
+                        <div class="ketupat_wrap position-relative">
+                            <img class="header_tengah" src="./img/header_tengah.png" alt="">
+                            <img class="ketupat position-absolute" src="./img/ketupat.svg" alt="">
+                        </div>                        
+                    </div>
+                
+                    <!-- Gambar Kanan -->
+                    <div class="col-sm-6 col-lg-3 img_wrap d-flex justify-content-lg-center justify-content-md-end position-relative order-3">
+                        <div class="ketupat_wrap position-relative">
+                            <img class="header_samping ska" src="./img/header_kanan.png" alt="">
+                            <img class="ketupat ska position-absolute" src="./img/ketupat.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Header Title -->
+            <div class="col-sm-12 col-lg-8 col-xl-7 d-flex flex-column justify-content-center align-items-center order-1 order-lg-2">
+                <h1 class="header_title text-center">Pusatnya furniture berkualitas<br class="break"> dan bergaransi</h1>
+                <p class="header_para text-center">Temukan beragam produk sesuai kebutuhan kantor Anda</p>
+            </div>
+    
+            <!-- Header Button -->
+            <div class="col-sm-12 col-md-8 col-lg-6 d-flex justify-content-center order-3">
+                <div class="btn_wrap d-flex flex-column flex-md-row align-items-center justify-content-around">
+                    <a class="tombol btn_shop d-flex align-items-center justify-content-center" href="#"><i class="iconify" data-icon="clarity:shopping-cart-line"></i>Shop Now</a>
+                    <a class="tombol btn_order d-flex align-items-center justify-content-center" href="#">Custom Order<i class="iconify" data-icon="bx:right-arrow-alt"></i></a>
+                </div>
+            </div>
+    
+        </div>
+
+    </div>
+
+</section>
+<!-- =========================== End Header Area =========================== -->
+
+<script>
+
+    //   var nav = document.getElementById("navbarbleb");
+    //   var head = document.getElementById("header");
+    //   var ln1 = document.getElementById("ln1");
+    //   var ln2 = document.getElementById("ln2");
+
+    //       document.body.addEventListener('scroll',() => {
+              
+    //           if (document.body.scrollTop > head.offsetTop){
+
+    //               console.log('LOL');
+    //               document.getElementById('navbarbleb').className="fixed-top navbar scrolled";
+    //               document.getElementById('ln1').className="logo_nav ln1 on";
+    //               document.getElementById('ln2').className="logo_nav ln2";
+                  
+    //           } else{
+                  
+    //               console.log('WALOLING');
+    //               document.getElementById('navbarbleb').className="fixed-top navbar";
+    //               document.getElementById('ln1').className="logo_nav ln1";
+    //               document.getElementById('ln2').className="logo_nav ln2 on";
+    //           }
+    //       })      
+
+
+    // console.log(document.getElementById("footer").scrollHeight);
+    // window.onscroll = bleb()
+    // document.body.addEventListener('scroll', () => {
+    //     if (document.body.scrollTop > fot.offsetTop) {
+    //         document.getElementById("navbarbleb").className = "hidden";
+    //         document.getElementById("wa_btn").className = "hidden";
+
+    //     }
+    //     else {
+    //         document.getElementById("navbarbleb").className = "fixed-top";
+    //         document.getElementById("wa_btn").className = "wa_btn";
+    //     }
+    // })
+
+    var sip = document.getElementById('head')
+
+    var navLinks = document.getElementById("NavLinks")
+    var keluar = document.getElementById("close")
+    var nengok = document.getElementById("show")
+
+    function tampil()
+    {
+        keluar.style.display = "inline-block";
+        nengok.style.display = "none";
+        navLinks.style.transition = "1s";
+        navLinks.style.animation = "zoomin 1s";
+        navLinks.style.opacity = "100%";
+        // navLinks.style.transform = "scale(1)";
+        navLinks.style.display = "inline-block";
+        sip.style.marginTop='500px';
+        sip.style.transition='1s';
+    }
+    // function showMenu() {
+
+    // }
+    function hideMenu() {
+        // navLinks.style.transform = "scale(0)";
+        navLinks.style.transition = "1s";
+        navLinks.style.animation = "zoomout 1s";
+        nengok.style.display = "inline-block";
+        keluar.style.display = "none";
+        navLinks.style.opacity = "0%";
+        sip.style.marginTop='62px';
+    }
+    // function touch() {
+    //     navLinks.style.transform = "scale(0)";
+    //     // navLinks.style.display = "none";
+    //     nengok.style.display = "inline-block";
+    //     keluar.style.display = "none";
+    //     sip.style.marginTop='62px';
+    // }
+</script>
+<!-- =========================== End Navbar Area =========================== -->
