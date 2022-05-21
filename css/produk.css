@@ -2,9 +2,9 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 115%;
-
-  color: rgba(0, 0, 0, 0.75);
   margin-bottom: 48px;
+  color: rgba(0, 0, 0, 0.75);
+
 }
 .produk .card .card-body a {
   margin-bottom: 13.5px;
@@ -23,6 +23,7 @@
     align-items: center; */
   overflow: hidden;
   border-radius: 0%;
+  margin-top: 40px;
   border: 1px solid rgba(0, 0, 0, 0.25);
 }
 .produk .card img {
@@ -56,6 +57,7 @@
   width: 21.375rem;
   height: 31.125rem;
   border: 2px solid #afc318;
+  margin-top: 20px;
   box-shadow: 12px 12px 48px rgba(175, 195, 24, 0.48);
 }
 
@@ -84,7 +86,7 @@
   width: 17.688rem;
   height: 3.25rem;
   border-radius: 0%;
-  margin-bottom: 40px;
+
 }
 .produk ul li button {
   display: flex;
@@ -101,7 +103,7 @@
 
 /* responsive */
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 1400px) {
   .produk .pembungkus-kartu .card {
     width: 15.486rem;
     height: 28.375rem;
@@ -115,14 +117,28 @@
     width: 13.036rem;
     height: 13.688rem;
   }
+  .produk ul .nav-item .nav-link.active 
+  {
+    width:15.486rem;
+  }
   .produk .card .card-body a.btn {
-    width: 12.375rem;
+    width: 12.5rem;
   }
   .produk ul .nav-item .nav-link {
     width: 15.486rem;
   }
   .produk ul .nav-item .nav-link:hover {
     width: 15.486rem;
+
+  }
+
+  .produk .pembungkus-kartu .card
+  {
+    height: 24.75rem;
+  }
+  .produk .card .card-body p
+  {
+    font-size: 32px;
   }
 }
 

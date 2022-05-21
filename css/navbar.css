@@ -63,7 +63,7 @@ nav {
 .nav-links ul li a:hover {
   text-decoration: underline solid white;
   transition: 0.5s;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: bold;
 }
 
