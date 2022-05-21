@@ -123,4 +123,8 @@
   .footer_content .row .kolom4 .subscribe_box .form_sub {
     font-size: 0.8rem;
   }
+
+  .footer_content .row .kolom4 .subscribe_box .btn_sub{
+    font-size: 0.8rem;
+  }
 }
