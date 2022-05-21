@@ -41,7 +41,7 @@
       <div class="nav-links" id="NavLinks">
         <ul class="d-none d-md-inline d-xl-inline">
           <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
-          <li><a href="#navbar">Home</a></li>
+          <li><a href="#head">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#produk">Product</a></li>
           <li><a href="#testimoni">Testimoni</a></li>
@@ -49,7 +49,7 @@
         </ul>
         <ul class="d-inline d-md-none d-xl-none">
           <!-- <li><span class="icon close"  onclick="hideMenu()"></span></li> -->
-          <li><a href="#navbar" onclick="touch()">Home</a></li>
+          <li><a href="#head" onclick="touch()">Home</a></li>
           <li><a href="#about" onclick="touch()">About Us</a></li>
           <li><a href="#produk" onclick="touch()">Product</a></li>
           <li><a href="#testimoni" onclick="touch()">Testimoni</a></li>
@@ -141,10 +141,11 @@
       }
 
       function touch() {
-        navLinks.style.display = "none";
-        nengok.style.display = "inline-block";
-        keluar.style.display = "none";
-        sip.style.marginTop = "92px";
+          hideMenu();
+        // navLinks.style.display = "none";
+        // nengok.style.display = "inline-block";
+        // keluar.style.display = "none";
+        // sip.style.marginTop='92px';
       }
     </script>
     <!-- =========================== End Navbar Area =========================== -->
@@ -283,6 +284,7 @@
         );
     </script>
 
+    
     <!-- Bootsrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

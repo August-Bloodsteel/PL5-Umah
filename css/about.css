@@ -60,6 +60,7 @@
 {
     .wrap-about
     {
+        margin-top: 7.5rem;
         margin-bottom: 32px;
     }
     .wrap-about .about .custom
@@ -97,5 +98,13 @@
     .wrap-about .us h1
     {
         font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 320px)
+{
+    .wrap-about
+    {
+        margin-top: 12rem;
     }
 }
