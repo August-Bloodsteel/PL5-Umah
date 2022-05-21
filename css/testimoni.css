@@ -1,3 +1,7 @@
+.testimoni
+{
+    margin-top: 120px;
+}
 .testimoni .corner{
     background-color: rgba(175, 195, 24, 1);
     height: 2.25rem;
@@ -98,6 +102,10 @@
     }
 
 @media only screen and (max-width:1025px) {
+    .testimoni
+    {
+        margin-top: 64px;
+    }
     .testimoni .carousel_wrap .testi_text_wrap .testi_para{
         width: 18.375rem;
     }
