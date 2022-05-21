@@ -1,159 +1,153 @@
-.testimoni
-{
-    margin-top: 120px;
+.testimoni {
+  margin-top: 120px;
 }
-.testimoni .corner{
-    background-color: rgba(175, 195, 24, 1);
-    height: 2.25rem;
-    width: 2.25rem;
-    border-radius: 1.5rem 0 0 0;
-}
-
-.testimoni .corner.bki{
-    left: 5.25rem;
+.testimoni .corner {
+  background-color: rgba(175, 195, 24, 1);
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 1.5rem 0 0 0;
 }
 
-.testimoni .corner.bki.bot.left{
-    transform: rotate(270deg);
+.testimoni .corner.bki {
+  left: 5.25rem;
 }
 
-.testimoni .testi_title{
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 115%;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.75);
+.testimoni .corner.bki.bot.left {
+  transform: rotate(270deg);
 }
 
-.testimoni .carousel_wrap .testi_text_wrap{
-    padding: 9.1rem 0 5.1rem 0;
+.testimoni .testi_title {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 115%;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.75);
 }
 
-.testimoni .carousel_wrap .testi_text_wrap .star_wrap{
-    margin-bottom: 1rem;
+.testimoni .carousel_wrap .testi_text_wrap {
+  padding: 9.1rem 0 5.1rem 0;
 }
 
-.testimoni .carousel_wrap .testi_text_wrap .testi_para{
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 180%;
-    color: rgba(0, 0, 0, 0.5);
-
-    width: 30.375rem;
+.testimoni .carousel_wrap .testi_text_wrap .star_wrap {
+  margin-bottom: 1rem;
 }
 
-.testimoni .carousel_wrap .testi_text_wrap .testi_name{
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 115%;
-    color: rgba(0, 0, 0, 0.75);
+.testimoni .carousel_wrap .testi_text_wrap .testi_para {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  color: rgba(0, 0, 0, 0.5);
+
+  width: 30.375rem;
 }
 
-.testimoni .carousel_wrap .testi_text_wrap .testi_pos{
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 115%;
-    color: rgba(0, 0, 0, 0.5);
+.testimoni .carousel_wrap .testi_text_wrap .testi_name {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 115%;
+  color: rgba(0, 0, 0, 0.75);
 }
 
-
-.testimoni .carousel_wrap .testi_img_wrap .testi_img{
-    width: 24rem;
+.testimoni .carousel_wrap .testi_text_wrap .testi_pos {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 115%;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.testimoni .carousel_wrap .testi_img_wrap .testi_name{
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 115%;
-    color: rgba(0, 0, 0, 0.75);
-
-    margin-top: 1rem;
+.testimoni .carousel_wrap .testi_img_wrap .testi_img {
+  width: 24rem;
 }
 
-.testimoni .carousel_wrap .testi_img_wrap .testi_pos{
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 115%;
-    color: rgba(0, 0, 0, 0.5);
+.testimoni .carousel_wrap .testi_img_wrap .testi_name {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 115%;
+  color: rgba(0, 0, 0, 0.75);
 
-    margin-top: 0.5rem;
+  margin-top: 1rem;
 }
 
-.testimoni .carousel_arrow{
-    width: auto;
-    height: min-content;
+.testimoni .carousel_wrap .testi_img_wrap .testi_pos {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 115%;
+  color: rgba(0, 0, 0, 0.5);
+
+  margin-top: 0.5rem;
+}
+
+.testimoni .carousel_arrow {
+  width: auto;
+  height: min-content;
 }
 /* .testimoni .carousel-indicators button i
 {
     color: rgba(0, 0, 0, 1);;
 } */
-.testimoni .carousel-indicators button
-    {
-        position: relative;
-        top: -20px;
-        width: 8px;
-        height: 8px;
-        background-color: rgba(0, 0, 0, 0.25);
-        border-radius: 100%;
-    }
-    .testimoni .carousel-indicators button.active
-    {
-        background-color: rgba(0, 0, 0, 0.75);
-    }
-
-@media only screen and (max-width:1025px) {
-    .testimoni
-    {
-        margin-top: 64px;
-    }
-    .testimoni .carousel_wrap .testi_text_wrap .testi_para{
-        width: 18.375rem;
-    }
-
-    .testimoni .corner.bki{
-        left: 5.5rem;
-    }
-
-    .testimoni .carousel_wrap .testi_img_wrap .testi_img{
-        width: 20rem;
-    }
-
-    .testimoni .carousel_wrap .testi_text_wrap{
-        padding: 2rem 0 5.1rem 0;
-    }
+.testimoni .carousel-indicators button {
+  position: relative;
+  top: -20px;
+  width: 8px;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+}
+.testimoni .carousel-indicators button.active {
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
-@media only screen and (max-width:992px) {
-    .testimoni .carousel_wrap .testi_text_wrap .testi_para{
-        width: 36.375rem;
-    }
+@media only screen and (max-width: 1025px) {
+  .testimoni {
+    margin-top: 64px;
+  }
+  .testimoni .carousel_wrap .testi_text_wrap .testi_para {
+    width: 18.375rem;
+  }
 
-    .testimoni .carousel_wrap .testi_text_wrap .hidden_wrap{
-        width: 80%;
-    }
+  .testimoni .corner.bki {
+    left: 5.5rem;
+  }
 
-    .testimoni .corner.bka.top.right{
-        transform: rotate(90deg);
-    }
+  .testimoni .carousel_wrap .testi_img_wrap .testi_img {
+    width: 20rem;
+  }
 
-    .testimoni .corner.bka.bot.left{
-        transform: rotate(270deg);
-    }
+  .testimoni .carousel_wrap .testi_text_wrap {
+    padding: 2rem 0 5.1rem 0;
+  }
 }
 
-@media only screen and (max-width:576px) {
+@media only screen and (max-width: 992px) {
+  .testimoni .carousel_wrap .testi_text_wrap .testi_para {
+    width: 36.375rem;
+  }
 
-    .testimoni .carousel_wrap .testi_text_wrap .testi_para{
-        width: 19.5rem;
-        font-size: 1rem;
-    }
+  .testimoni .carousel_wrap .testi_text_wrap .hidden_wrap {
+    width: 80%;
+  }
 
-    .testimoni .corner{
-        width: 1.5rem;
-        height: 1.5rem;
-    }
+  .testimoni .corner.bka.top.right {
+    transform: rotate(90deg);
+  }
 
-    .testimoni .carousel_wrap .testi_text_wrap .hidden_wrap{
-        width: 100%;
-    }
+  .testimoni .corner.bka.bot.left {
+    transform: rotate(270deg);
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .testimoni .carousel_wrap .testi_text_wrap .testi_para {
+    width: 19.5rem;
+    font-size: 1rem;
+  }
+
+  .testimoni .corner {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .testimoni .carousel_wrap .testi_text_wrap .hidden_wrap {
+    width: 100%;
+  }
 }

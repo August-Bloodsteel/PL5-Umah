@@ -1,127 +1,126 @@
-.footer_area{
-    background-color: rgba(175, 195, 24, 1);
-    color: white;
-    padding: 2rem 7.5rem 3rem;
+.footer_area {
+  background-color: rgba(175, 195, 24, 1);
+  color: white;
+  padding: 2rem 7.5rem 3rem;
 }
 
-.footer_area .footer_logo{
-    width: 11.25rem;
+.footer_area .footer_logo {
+  width: 11.25rem;
+  margin-bottom: 1.4rem;
+}
+
+.footer_content p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 180%;
+}
+
+.footer_content p a {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 115%;
+}
+
+.footer_content .footer_title {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 115%;
+
+  margin-bottom: 2.5rem;
+}
+
+.footer_content .kolom2 .iconify {
+  font-size: 20px;
+  margin-right: 23px;
+}
+
+.footer_content .kolom3 .qlinks {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.footer_content .row .kolom4 .subscribe_box {
+  padding: 0.3rem;
+  background: white;
+}
+
+.footer_content .row .kolom4 .subscribe_box .form_sub {
+  width: 100%;
+  border: none;
+  outline: none;
+
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 180%;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 0.5rem;
+}
+
+.footer_content .row .kolom4 .subscribe_box .btn_sub {
+  border: none;
+  background: rgba(175, 195, 24, 0.75);
+  width: 50%;
+  padding: 0.6rem 0;
+
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 180%;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.footer_content .row.copy {
+  margin-top: 7.5rem;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer_area {
+    padding: 5.3rem 4.3rem 3.25rem;
+  }
+
+  .footer_content .row .kolom4 {
+    margin-top: 1.5rem;
+  }
+
+  .footer_content .footer_title {
+    margin-top: 1rem;
     margin-bottom: 1.4rem;
+  }
 }
 
-.footer_content p{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 180%;
+@media only screen and (max-width: 769px) {
+  .footer_area {
+    padding: 5.3rem 4rem 3.25rem;
+  }
+
+  .footer_content .row.copy .copy_teks {
+    display: none;
+  }
 }
 
-.footer_content p a{
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 115%;
-}
+@media only screen and (max-width: 576px) {
+  .footer_area {
+    padding: 2.2rem 2rem;
+  }
 
-.footer_content .footer_title{
-    font-weight: 500;
-    font-size: 1.5rem;
-    line-height: 115%;
+  .footer_area .footer_logo {
+    margin-bottom: 1.7rem;
+  }
 
+  .footer_content .footer_title {
+    margin-bottom: 2.2rem;
+  }
+
+  .footer_content .kol {
     margin-bottom: 2.5rem;
-}
+  }
 
-.footer_content .kolom2 .iconify{
-    font-size: 20px;
-    margin-right: 23px;
-}
+  .footer_content .row.copy {
+    margin-top: 2.7rem;
+  }
 
-.footer_content .kolom3 .qlinks{
-    text-decoration: none;
-    color: white;
-    margin-bottom: 1rem;
-}
-
-.footer_content .row .kolom4 .subscribe_box{
-    padding: 0.3rem;
-    background: white;
-}
-
-.footer_content .row .kolom4 .subscribe_box .form_sub{
-    width: 100%;
-    border: none;
-    outline: none;
-
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 180%;
-    color: rgba(0, 0, 0, 0.5);
-    padding-left: 0.5rem;
-}
-
-.footer_content .row .kolom4 .subscribe_box .btn_sub{
-    border: none;
-    background: rgba(175, 195, 24, 0.75);
-    width: 50%;
-    padding: 0.6rem 0;
-    
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 180%;
-    color: rgba(0, 0, 0, 0.75);
-}
-
-.footer_content .row.copy{
-    margin-top: 7.5rem;
-    text-align: center;
-}
-
-@media only screen and (max-width:1200px) {
-    .footer_area{
-        padding: 5.3rem 4.3rem 3.25rem;
-    }
-
-    .footer_content .row .kolom4{
-        margin-top: 1.5rem;
-    }
-
-    .footer_content .footer_title{
-        margin-top: 1rem;
-        margin-bottom: 1.4rem;
-    }
-}
-
-@media only screen and (max-width:769px) {
-    .footer_area{
-        padding: 5.3rem 4rem 3.25rem;
-    }
-
-    .footer_content .row.copy .copy_teks{
-        display: none;
-    }
-}
-
-@media only screen and (max-width:576px){
-    .footer_area{
-        padding: 2.2rem 2rem;
-    }
-
-    .footer_area .footer_logo{
-        margin-bottom: 1.7rem;
-    }
-
-    .footer_content .footer_title{
-        margin-bottom: 2.2rem;
-    }
-
-    .footer_content .kol{
-        margin-bottom: 2.5rem;
-    }
-
-    .footer_content .row.copy{
-        margin-top: 2.7rem;
-    }
-
-    .footer_content .row .kolom4 .subscribe_box .form_sub{
-        font-size: 0.8rem;
-    }
-
+  .footer_content .row .kolom4 .subscribe_box .form_sub {
+    font-size: 0.8rem;
+  }
 }

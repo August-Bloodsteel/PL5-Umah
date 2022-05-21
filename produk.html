@@ -2,7 +2,9 @@
     <div class="putama d-flex justify-content-center align-items-center">
         <div class="produk col-12 col-lg-4 col-xl-10">
           <div class="our d-flex flex-column justify-content-center align-items-center">
-            <h1>Our Product</h1>
+            <h1 data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-anchor-placement="bottom-bottom">Our Product</h1>
           </div>
           <div class="bungkus-link justify-content-center justify-content-lg-center justify-content-xl-start" >
             <div class="gg">
@@ -550,4 +552,10 @@
             .parent()
             .zoom();
         });
+    </script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      window.addEventListener("load", AOS.refresh);
+      AOS.init();
     </script>

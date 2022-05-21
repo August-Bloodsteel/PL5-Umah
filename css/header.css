@@ -1,196 +1,194 @@
-.header{
-    height: 100vh;
-    margin-bottom: 60px;
+.header {
+  height: 100vh;
+  margin-bottom: 60px;
 }
 
-.header .header_tengah{
-    margin-top: 4rem;
+.header .header_tengah {
+  margin-top: 4rem;
 }
 
-.header .header_samping{
-    margin-top: 12rem;
+.header .header_samping {
+  margin-top: 12rem;
 }
 
-.header .ketupat{
-    width: auto;
-    bottom: -6%;
-    left: 50%;
-    transform: translateX(-50%);
+.header .ketupat {
+  width: auto;
+  bottom: -6%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
+.header .header_title {
+  font-weight: 500;
+  font-size: 3rem;
+  line-height: 115%;
+  color: rgba(0, 0, 0, 0.75);
 
-.header .header_title{
-    font-weight: 500;
-    font-size: 3rem;
-    line-height: 115%;
-    color: rgba(0, 0, 0, 0.75);
-
-    margin: 1.4rem 0rem 1rem;
+  margin: 1.4rem 0rem 1rem;
 }
 
-.header .header_para{
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 180%;
-    color: rgba(0, 0, 0, 0.75);
+.header .header_para {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 180%;
+  color: rgba(0, 0, 0, 0.75);
 
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .header .btn_wrap {
+  width: 100%;
+  padding: 0rem 6rem;
+}
+
+.header .tombol {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: rgba(0, 0, 0, 0.75);
+
+  width: 12.75rem;
+  height: 3.75rem;
+}
+
+.header .tombol.btn_shop {
+  background: rgba(175, 195, 24, 1);
+  transition: 0.5s;
+}
+
+.header .tombol.btn_shop .iconify {
+  margin-right: 0.5rem;
+}
+
+.header .tombol.btn_shop:hover {
+  width: 236px;
+}
+
+.header .tombol.btn_order {
+  background: white;
+  border: 1px solid rgba(175, 195, 24, 1);
+  transition: 0.5s;
+}
+
+.header .tombol.btn_order .iconify {
+  margin-left: 0.5rem;
+}
+
+.header .tombol.btn_order:hover {
+  border: none;
+  background: rgba(175, 195, 24, 1);
+  width: 236px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .header img {
     width: 100%;
-    padding: 0rem 6rem;
+  }
+
+  .header .btn_wrap {
+    padding: 0rem;
+  }
+
+  .header .ketupat {
+    bottom: -7.5%;
+  }
+
+  .header .ketupat.ski {
+    bottom: -5.5%;
+  }
+  .header .ketupat.ska {
+    bottom: -5.5%;
+  }
 }
 
-.header .tombol{
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 150%;
-    color: rgba(0, 0, 0, 0.75);
+@media only screen and (max-width: 992px) {
+  .header {
+    height: auto;
+    margin-bottom: 64px;
+  }
+  .header img {
+    width: auto;
+  }
 
-    width: 12.75rem;
-    height: 3.75rem;
+  .header .header_tengah {
+    width: 100%;
+  }
+
+  .header .imgs_wrap {
+    width: auto;
+  }
+
+  .header .header_samping {
+    margin-top: 1rem;
+  }
+
+  .header .header_samping.ski {
+    margin-left: 3.5rem;
+  }
+
+  .header .header_samping.ska {
+    margin-right: 3.5rem;
+  }
+
+  .header .header_tengah {
+    margin-top: 0rem;
+  }
+
+  .header .header_para {
+    margin-bottom: 1.5rem;
+  }
+
+  .header .btn_wrap {
+    margin-top: 2.1rem;
+  }
 }
 
-.header .tombol.btn_shop{
-    background: rgba(175, 195, 24, 1);
-    transition: 0.5s;
-}
+@media only screen and (max-width: 576px) {
+  .header .header_title {
+    font-size: 2.1rem;
+  }
 
-.header .tombol.btn_shop .iconify{
-    margin-right: 0.5rem;
-}
+  .header .header_para {
+    font-size: 1rem;
+    width: 80%;
+  }
 
-.header .tombol.btn_shop:hover{
-    width: 236px;
-}
+  .header .header_tengah {
+    width: 18.8rem;
+  }
 
-.header .tombol.btn_order{
-    background: white;
+  .header .header_samping {
+    width: 9.25rem;
+  }
+
+  .header .ketupat {
+    width: 1.5rem;
+  }
+
+  .header .header_samping.ski {
+    margin-left: 0rem;
+  }
+
+  .header .header_samping.ska {
+    margin-right: 0rem;
+  }
+
+  .header .tombol {
+    width: 19.5rem;
+  }
+
+  .header .tombol.btn_shop {
+    margin-bottom: 1rem;
+  }
+
+  .header .tombol.btn_shop:hover {
+    width: 19.5rem;
+  }
+
+  .header .tombol.btn_order:hover {
+    width: 19.5rem;
     border: 1px solid rgba(175, 195, 24, 1);
-    transition: 0.5s;
-}
-
-.header .tombol.btn_order .iconify{
-    margin-left: 0.5rem;
-}
-
-.header .tombol.btn_order:hover{
-    border: none;
-    background: rgba(175, 195, 24, 1);
-    width: 236px;
-}
-
-@media only screen and (max-width:1200px) {
-    .header img{
-        width: 100%;
-    }
-
-    .header .btn_wrap{
-        padding: 0rem;
-    }
-
-    .header .ketupat{
-        bottom: -7.5%;
-    }
-
-    .header .ketupat.ski{
-        bottom: -5.5%;
-    
-    }
-    .header .ketupat.ska{
-        bottom: -5.5%;
-    }
-}
-
-@media only screen and (max-width:992px) {
-    .header{
-        height: auto;
-        margin-bottom: 64px;
-    }
-    .header img{
-        width: auto;
-    }
-
-    .header .header_tengah{
-        width: 100%;
-    }
-
-    .header .imgs_wrap{
-        width: auto;
-    }
-
-    .header .header_samping{
-        margin-top: 1rem;
-    }
-
-    .header .header_samping.ski{
-        margin-left: 3.5rem;
-    }
-
-    .header .header_samping.ska{
-        margin-right: 3.5rem;
-    }
-
-    .header .header_tengah{
-        margin-top: 0rem;
-    }
-
-    .header .header_para{
-        margin-bottom: 1.5rem;
-    }
-
-    .header .btn_wrap{
-        margin-top: 2.1rem;
-    }
-}
-
-@media only screen and (max-width:576px){
-    .header .header_title{
-        font-size: 2.1rem;
-    }
-
-    .header .header_para{
-        font-size: 1rem;
-        width: 80%;
-    }
-
-    .header .header_tengah{
-        width: 18.8rem;
-    }
-
-    .header .header_samping{
-        width: 9.25rem;
-    }
-
-    .header .ketupat{
-        width: 1.5rem;
-    }
-
-    .header .header_samping.ski{
-        margin-left: 0rem;
-    }
-
-    .header .header_samping.ska{
-        margin-right: 0rem;
-    }
-
-    .header .tombol{
-        width: 19.5rem;
-    }
-
-    .header .tombol.btn_shop{
-        margin-bottom: 1rem;
-    }
-
-    .header .tombol.btn_shop:hover{
-        width: 19.5rem;
-    }
-
-    .header .tombol.btn_order:hover{
-        width: 19.5rem;
-        border: 1px solid rgba(175, 195, 24, 1);
-        background: white;
-    }
+    background: white;
+  }
 }
