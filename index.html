@@ -76,78 +76,7 @@
         />
       </span>
     </nav>
-    <script>
-      // console.log(document.getElementById("footer").scrollHeight);
-      // window.onscroll = bleb()
-      // document.body.addEventListener('scroll', () => {
-      //     if (document.body.scrollTop > fot.offsetTop) {
-      //         document.getElementById("navbarbleb").className = "hidden";
-      //         document.getElementById("wa_btn").className = "hidden";
-
-      //     }
-      //     else {
-      //         document.getElementById("navbarbleb").className = "fixed-top";
-      //         document.getElementById("wa_btn").className = "wa_btn";
-      //     }
-      // })
-
-      // $(window).scroll(function() {
-      //     if ($(window).scrollTop() >= offset) {
-      //         $('.navbar').addClass('navbar-fixed-top');
-      //         $("#Main").css("margin-top", $(".navbar").height()); //Compensates for fixed positioning
-      //     } else {
-      //         $('.navbar').removeClass('navbar-fixed-top');
-      //         $("#Main").css("margin-top", "");
-      //     }
-      // });
-
-      // $('a.page-scroll').bind('click', function(event) {
-      //         var $anchor = $(this);
-      //         var globOffset = $(".navbar").height(); //Acts as an offset for the fixed element
-      //         $('body').stop().animate({scrollTop: $($anchor).attr('href').offset().top - globOffset}, 1500);
-      //         event.preventDefault();
-      //     });
-
-      var sip = document.getElementById("head");
-
-      var navLinks = document.getElementById("NavLinks");
-      var keluar = document.getElementById("close");
-      var nengok = document.getElementById("show");
-
-      function tampil() {
-        keluar.style.display = "inline-block";
-        nengok.style.display = "none";
-        navLinks.style.transition = "0.5s";
-        navLinks.style.animation = "zoomin 0.5s";
-        navLinks.style.transform = "scale(1,1)";
-        navLinks.style.opacity = "100%";
-        // navLinks.style.transform = "scale(1)";
-        navLinks.style.display = "inline-block";
-        sip.style.marginTop = "500px";
-        sip.style.transition = "0.5s";
-      }
-
-      // function showMenu() {
-
-      // }
-      function hideMenu() {
-        // navLinks.style.transform = "scale(0)";
-        navLinks.style.transition = "0.5s";
-        navLinks.style.transform = "scale(0,0)";
-        nengok.style.display = "inline-block";
-        keluar.style.display = "none";
-        navLinks.style.opacity = "0%";
-        sip.style.marginTop = "92px";
-      }
-
-      function touch() {
-        hideMenu();
-        // navLinks.style.display = "none";
-        // nengok.style.display = "inline-block";
-        // keluar.style.display = "none";
-        // sip.style.marginTop='92px';
-      }
-    </script>
+  
     <!-- =========================== End Navbar Area =========================== -->
 
     <!-- =========================== Start Header Area =========================== -->
@@ -266,6 +195,80 @@
         </div>
       </div>
     </section>
+
+    <script>
+      // console.log(document.getElementById("footer").scrollHeight);
+      // window.onscroll = bleb()
+      // document.body.addEventListener('scroll', () => {
+      //     if (document.body.scrollTop > fot.offsetTop) {
+      //         document.getElementById("navbarbleb").className = "hidden";
+      //         document.getElementById("wa_btn").className = "hidden";
+
+      //     }
+      //     else {
+      //         document.getElementById("navbarbleb").className = "fixed-top";
+      //         document.getElementById("wa_btn").className = "wa_btn";
+      //     }
+      // })
+
+      // $(window).scroll(function() {
+      //     if ($(window).scrollTop() >= offset) {
+      //         $('.navbar').addClass('navbar-fixed-top');
+      //         $("#Main").css("margin-top", $(".navbar").height()); //Compensates for fixed positioning
+      //     } else {
+      //         $('.navbar').removeClass('navbar-fixed-top');
+      //         $("#Main").css("margin-top", "");
+      //     }
+      // });
+
+      // $('a.page-scroll').bind('click', function(event) {
+      //         var $anchor = $(this);
+      //         var globOffset = $(".navbar").height(); //Acts as an offset for the fixed element
+      //         $('body').stop().animate({scrollTop: $($anchor).attr('href').offset().top - globOffset}, 1500);
+      //         event.preventDefault();
+      //     });
+
+      var sip = document.getElementById("head");
+
+      var navLinks = document.getElementById("NavLinks");
+      var keluar = document.getElementById("close");
+      var nengok = document.getElementById("show");
+
+      function tampil() {
+        keluar.style.display = "inline-block";
+        nengok.style.display = "none";
+        navLinks.style.transition = "0.5s";
+        navLinks.style.animation = "zoomin 0.5s";
+        navLinks.style.transform = "scale(1,1)";
+        navLinks.style.opacity = "100%";
+        // navLinks.style.transform = "scale(1)";
+        navLinks.style.display = "inline-block";
+        sip.style.marginTop = "500px";
+        sip.style.transition = "0.5s";
+      }
+
+      // function showMenu() {
+
+      // }
+      function hideMenu() {
+        // navLinks.style.transform = "scale(0)";
+        navLinks.style.transition = "0.5s";
+        navLinks.style.transform = "scale(0,0)";
+        nengok.style.display = "inline-block";
+        keluar.style.display = "none";
+        navLinks.style.opacity = "0%";
+        sip.style.marginTop = "92px";
+      }
+
+      function touch() {
+        hideMenu();
+        // navLinks.style.display = "none";
+        // nengok.style.display = "inline-block";
+        // keluar.style.display = "none";
+        // sip.style.marginTop='92px';
+      }
+    </script>
+
     <!-- =========================== End Header Area =========================== -->
 
     <!-- =========================== Start About Area =========================== -->
@@ -685,7 +688,7 @@
           ></textarea>
 
           <div class="submit d-flex justify-content-around align-items-center">
-            <a href="" class="btn">
+            <a  class="btn">
               <i
                 class="iconify"
                 data-icon="bi:box-arrow-in-up-right"
