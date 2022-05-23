@@ -3,7 +3,7 @@
 }
 
 .header .atas{
-  right: 1rem;
+  right: 4rem;
   bottom: 1rem; 
   z-index: 100;
 }
@@ -43,7 +43,6 @@
 
 .header .btn_wrap {
   width: 100%;
-  padding: 0rem 0rem 0rem 6.3rem;
 }
 
 .header .tombol {
@@ -154,6 +153,7 @@
   .header .atas{
     width: 2rem;
     right: 2rem;
+    bottom: 4rem;
   }
   
   .header .header_title {
