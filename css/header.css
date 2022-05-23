@@ -86,11 +86,18 @@
   width: 236px;
 }
 
+.header .btn_wrap
+{
+  width: 30.625rem;
+  padding: 0rem 0rem 0rem 1.5rem;
+}
+
+
 @media only screen and (max-width: 1400px)
 {
   .header .btn-sip
   {
-    width: 30.625rem;
+    width: 32.625rem;
     overflow: visible;
   }
 
