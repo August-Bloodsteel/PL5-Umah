@@ -77,10 +77,26 @@
   margin-top: 0.5rem;
 }
 
+
 .testimoni .carousel_arrow {
   width: auto;
   height: min-content;
+  transition: 0.5s;
 }
+
+.testimoni .carousel_arrow .iconify{
+  border-radius: 100%;
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.5rem;
+  transition: 0.5s;
+}
+
+.testimoni .carousel_arrow .iconify:hover{
+  background: rgba(175, 195, 24, 1);
+  color: white;
+  font-size: 1.7rem;
+}
+
 /* .testimoni .carousel-indicators button i
 {
     color: rgba(0, 0, 0, 1);;
